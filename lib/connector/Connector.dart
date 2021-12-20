@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Game extends StatelessWidget {
-  const Game({Key? key}) : super(key: key);
+class Connector extends StatelessWidget {
+  const Connector({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

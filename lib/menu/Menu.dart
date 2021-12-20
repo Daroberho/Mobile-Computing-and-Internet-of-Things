@@ -3,6 +3,7 @@ import 'package:app/menu/widgets/menu_buttons.dart';
 import 'package:app/mode/Mode.dart';
 import 'package:app/game/Game.dart';
 import 'package:app/settings/Settings.dart';
+import 'package:app/connector/Connector.dart';
 
 class GameMenu extends StatelessWidget {
   const GameMenu({Key? key}) : super(key: key);
@@ -10,6 +11,7 @@ class GameMenu extends StatelessWidget {
   final Map<String, Widget> _screens = const {
     "Start": Game(),
     "Mode": Mode(),
+    "Connect eSense": Connector(),
     "Settings": Settings(),
   };
 
