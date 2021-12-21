@@ -72,6 +72,12 @@ flutter:
     - assets/finish.png
     - assets/start.png
     - assets/hedge.png
+    - assets/oneway.png
+    - assets/twoway.png
+    - assets/threeway.png
+    - assets/fourway.png
+    - assets/menustart.png
+    - assets/menustop.png
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
